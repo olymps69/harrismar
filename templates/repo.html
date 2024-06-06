@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repository Info</title>
+</head>
+<body>
+    <h1>Repository Information</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/mathematics">Mathematics</a>
+        <a href="/interests">Interests</a>
+        <a href="/blog">Blog</a>
+        <a href="/projects">Projects</a>
+        <a href="/skills">Skills</a>
+        <a href="/testimonials">Testimonials</a>
+        <a href="/contact">Contact</a>
+        <a href="/hobbies">Hobbies</a>
+        <a href="/england">England</a>
+        <a href="/greece">Greece</a>
+        <a href="/repo">Repo Info</a>
+    </nav>
+    <section>
+        <h2>Active Branch</h2>
+        <p>{{ info.active_branch }}</p>
+    </section>
+    <section>
+        <h2>Latest Commit</h2>
+        <p><strong>Commit Hash:</strong> {{ info.latest_commit }}</p>
+        <p><strong>Message:</strong> {{ info.commit_message }}</p>
+        <p><strong>Committer:</strong> {{ info.committer }}</p>
+        <p><strong>Date:</strong> {{ info.commit_date }}</p>
+    </section>
+</body>
+</html>
