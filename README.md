@@ -1,2 +1,0 @@
-# harrismar
-My personal repository
