@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+    <title>Harris Mar</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>I'm Harris Mar, a Mathematician, Financier, and AI Developer</h1>
+            <p>Currently building my empire online.</p>
+            <img src="{{ url_for('static', path='/profile.jpg') }}" alt="Harris Mar">
+        </section>
+        <section class="details">
+            <div class="services">
+                <h2>Services</h2>
+                <ul>
+                    <li>Mathematical Consulting</li>
+                    <li>Financial Analysis</li>
+                    <li>AI Development</li>
+                    <li>Property Investment</li>
+                    <a href="/chatbot">Chat with me</a>
+                </ul>
+            </div>
+            <div class="experience">
+                <h2>Experience</h2>
+                <p>Imperial College, PhD in Pure Mathematics</p>
+                <p>Finance Professional</p>
+                <p>AI Developer, Azure</p>
+                <p>Property Investor</p>
+            </div>
+            <div class="connect">
+                <h2>Connect</h2>
+                <p>Email: harrismar@gmail.com</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/harrismar">linkedin.com/in/harrismar</a></p>
+                <p>GitHub: <a href="https://github.com/harrismar">github.com/harrismar</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Harris Mar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
